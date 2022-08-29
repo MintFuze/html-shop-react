@@ -10,14 +10,13 @@
 .header {
   height: 100%;
   background-color: #fff;
-  margin: 0 auto;
-  max-width: 1440px;
+  margin: 0 auto 50px auto;
+  max-width: 1238px;
   height: 80px;
 }
 .header .container {
   display: flex;
   margin-top: 24px;
-  padding: 0 101px;
 }
 .header .container .header__categories ul {
   display: flex;
@@ -56,7 +55,6 @@
   position: relative;
   right: 77px;
   bottom: 4px;
-  cursor: pointer;
 }
 .header .container .header-right-group {
   display: flex;
@@ -129,4 +127,50 @@
   border-radius: 60px;
   margin-top: -8px;
   margin-left: -7px;
+}
+
+.content {
+  height: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 1238px;
+}
+.content .container .content__title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 160%;
+  color: #1d1f22;
+  margin-bottom: 105px;
+}
+.content .container .content__items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content .container .content__items .clothes-block {
+  padding: 16px;
+  margin-bottom: 103px;
+}
+.content .container .content__items .clothes-block .clothes-block__image {
+  margin-bottom: 19px;
+}
+.content .container .content__items .clothes-block .clothes-block__title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1d1f22;
+}
+.content .container .content__items .clothes-block:not(:nth-of-type(3n)) {
+  margin-right: 40px;
+}
+.content .container .content__items .clothes-block .clothes-block__bottom .clothes-block__price {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1d1f22;
 }/*# sourceMappingURL=style.css.map */
