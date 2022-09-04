@@ -128,6 +128,32 @@
   margin-top: -8px;
   margin-left: -7px;
 }
+.header .container .header-right-group .header__cart .cartModal {
+  position: absolute;
+  width: 325px;
+  height: 677px;
+  right: -19px;
+  top: 46px;
+  border: 1px solid black;
+  background: #FFFFFF;
+}
+.header .container .header-right-group .header__cart .cartModal .text-cartModal {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1D1F22;
+  padding: 32px 0 0 17px;
+}
+.header .container .header-right-group .header__cart .cartModal .text-cartModal .amount-text__cartModal {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1D1F22;
+}
 
 .content {
   height: 100%;
